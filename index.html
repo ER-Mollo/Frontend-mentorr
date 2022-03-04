@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 15px; text-align: center;background-color: rgb(240, 176, 176); bottom:0; width:100%; height: 40px; padding: 10px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="home">
+    <div class="mobile mob"><img src="images/logo.svg"></div>
+    <div class="desktop">
+      <div class="img desk"><img src="images/hero-desktop.jpg" ></div>
+      <div class="img mobile"><img src="images/hero-mobile.jpg" ></div>
+      <div class="info">
+        <div class="logo"><img src="images/logo.svg"> </div>
+        <div class="text">
+          <h1><nav>We're</nav> coming<br>soon</h1>
+
+          <p>Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <form id="form">
+            <div class="com">
+            <i class="icon"><img src="images/icon-error.svg"> </i>
+            <input id="email" type = "text" placeholder ="Email Address">
+            <button class="btn" type="submit" id="submit" onclick="error()"><img src="images/icon-arrow.svg" ></button><br>
+            <small >Error</small>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+</section>
+  
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">ER.Mollo</a>.
+    </p>
+  </footer>
+</body>
+</html>
